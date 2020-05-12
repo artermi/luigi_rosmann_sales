@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
 
     # Check if venv is created or not
-        if [ ! -d "venv" ]; then
-            virtualenv -p python2.7 venv
-        fi
-    sudo venv/bin/pip install  --no-cache-dir -r requirements.txt
+    sudo pip install  --no-cache-dir -r requirements.txt
 
         if [ ! -d /etc/luigi ];
             then

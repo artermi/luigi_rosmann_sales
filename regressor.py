@@ -4,9 +4,9 @@ desc:
 """
 
 from sklearn import linear_model
-from sklearn.grid_search import GridSearchCV
+from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 
 target_variable = ["Sales"]
 
